@@ -1,5 +1,8 @@
 class Solution {
     public int strStr(String haystack, String needle) {
+        // Honestly, it pisses me off that there is a problem which a Java library can solve in one line.
+        // Especially when that one-liner do so much better than my own long-ass solution. TT
+        // Well, treat it as a lesson and move on I guess.
         return haystack.indexOf(needle);
     }
 }
