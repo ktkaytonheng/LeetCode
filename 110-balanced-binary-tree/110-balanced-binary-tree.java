@@ -39,3 +39,7 @@ class Solution {
         else return Math.max(left, right) + 1;      
     }
 }
+
+// Side note:
+// It should also be possible to get max depth of right and left, then subtract to determine imbalance
+// Not tested by me, but theoretically it should be a viable way. Can try as extra
